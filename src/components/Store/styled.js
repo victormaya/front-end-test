@@ -23,7 +23,7 @@ export const StyledStore = styled.section`
     }
     margin-bottom: 60px;
   }
-  .gold-input {
+  .gold-alert {
     display: flex;
     width: 940px;
     justify-content: space-between;
