@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "./components/Header";
 import Store from "./components/Store";
 import Loading from "./components/Loading";
+import About from "./components/About";
 import { StyledApp } from "./styled";
 
 const App = () => {
@@ -32,7 +33,8 @@ const App = () => {
       {showLoading && <Loading />}
       <StyledApp>
         <Header />
-        <Store comics={comics} />
+        {/* <Store comics={comics} /> */}
+        <About comic={comics[0]} />
       </StyledApp>
     </>
   );
